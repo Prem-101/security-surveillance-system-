@@ -5,11 +5,12 @@ from PySide6.QtCore import QTimer, Qt
 from PySide6.QtGui import QImage, QPixmap
 from PySide6.QtWidgets import QApplication, QLabel, QMainWindow, QPushButton, QVBoxLayout, QHBoxLayout, QWidget, QLineEdit, QLabel
 from twilio.rest import Client
+import os
 
 detect = Prg()
 
-account_sid = 'AC4f84b996c983f93827322bdd306a8d7a'
-auth_token = '83ca8632343468557c1b28171213a5eb'
+account_sid = os.getenv('TWILIO_ACCOUNT_SID')
+auth_token = os.getenv('TWILIO_AUTH_TOKEN')
 
 RESOLUTION=(800, 600)
 
