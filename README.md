@@ -58,6 +58,12 @@ security-surveillance-system/
 ├── README.md
 ├── yolov9c.pt
 
+## Setup Environment Variables
+
+1. Create a '.env' file in the root directory of the project:
+   TWILIO_ACCOUNT_SID=your_new_account_sid
+   TWILIO_AUTH_TOKEN=your_new_auth_token
+
 
 - **detectObj.py**: Contains the Prg class for weapon and headcount detection.
 - **main.py**: Main application script.
