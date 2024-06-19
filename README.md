@@ -20,7 +20,6 @@ This project implements a security surveillance system using machine learning to
 
 ### Clone the Repository
 
-bash
 git clone https://github.com/Prem-101/security-surveillance-system.git
 cd security-surveillance-system
 
