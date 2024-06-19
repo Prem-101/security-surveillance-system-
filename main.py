@@ -6,6 +6,9 @@ from PySide6.QtGui import QImage, QPixmap
 from PySide6.QtWidgets import QApplication, QLabel, QMainWindow, QPushButton, QVBoxLayout, QHBoxLayout, QWidget, QLineEdit, QLabel
 from twilio.rest import Client
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 detect = Prg()
 
